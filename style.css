@@ -1,0 +1,183 @@
+
+body{
+   background-image: url("imagenes/vec.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+
+header nav .menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav a{
+    margin-right: 1em;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 1.2em;
+    text-shadow: 1px 2px 3px #2f2f2f56;
+    background-color: #f3f3f31f;
+}
+
+.titulo-principal{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px; 
+    text-shadow: 1px 2px 3px #2f2f2f56;
+}
+
+section h2{
+    margin: 3.5em 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5em;
+}
+
+.history-universe{
+    background-color: rgba(240, 244, 244, 0.047);
+    font-size: 20px;
+    border-left: 2px solid wheat;
+    padding-left: .5em;
+    text-shadow: 1px 2px 8px #2f2f2f56;
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-start;
+    text-align: justify;
+    align-items: stretch;
+    margin-top: 5.5em;
+}
+
+
+
+.astronautas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.astronautas p{
+    margin: auto .5em;
+}
+
+.titulo-astro{
+    text-decoration:underline;
+    margin-bottom: 1.4em;
+    display: flex;
+    align-items: flex-end;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divisiones{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Destacados h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family:initial;
+}
+
+.Destacados img{
+    width: 230px;
+    height: 220px;
+    margin-left: 6em;
+    border-radius: 100%;
+}
+
+.Destacados{
+    width: 33.3%;
+    text-align: justify;
+    margin: 1em;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 3px #000000;
+    background-color: rgba(240, 244, 244, 0.019);
+    border: 1px outset darkslateblue;
+    padding: 1.4px;
+}
+
+.Destacados:hover{
+    box-shadow: 1px 1px 10px rgb(171, 175, 235);
+}
+
+.estrellas{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items:flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2.5em;
+}
+
+.titulo-dos{
+    margin: 5.5em 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.origen-estrellas{
+    background-color: rgba(240, 244, 244, 0.04);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 2px solid wheat;
+    border-right: auto;
+    padding-right: .5em;
+    text-shadow: 1px 2px 8px #2f2f2f56;
+    display: flex;
+    color: #ffffff;
+    justify-content:left;
+    text-align: justify;
+    margin-top: 7.6em;
+
+}
+
+.estrellas img{
+    width: 450px;
+    margin: 8em 1em;
+    filter: unset;
+}
+
+
+
+
+
+
+
